@@ -27,6 +27,18 @@ $(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
 # Device Path
 DEVICE_PATH := device/xiaomi/jasmine_sprout
 
+# Derp-fy
+TARGET_GAPPS_ARCH := arm64
+GAPPS_VARIANT := stock
+TARGET_SUPPORTS_64_BIT_APPS := true
+GAPPS_PRODUCT_PACKAGES += messaging
+GAPPS_PRODUCT_PACKAGES += gmail
+GAPPS_PRODUCT_PACKAGES += youtube
+GAPPS_FORCE_MMS_OVERRIDES := true
+GAPPS_FORCE_DIALER_OVERRIDES := true
+IS_PHONE := true
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
