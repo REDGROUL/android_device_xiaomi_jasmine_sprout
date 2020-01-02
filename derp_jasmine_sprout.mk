@@ -20,8 +20,6 @@
 # included in a build is to use PRODUCT_PACKAGES in a product
 # definition file).
 #
-#TWRP
-BUILD_TWRP := true
 
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
@@ -37,7 +35,7 @@ DERP_BUILDTYPE := Official
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	PRIVATE_BUILD_DESC="jasmine-user 9 PKQ1.180904.001 V10.0.9.0.PDIMIXM release-keys"
+    PRIVATE_BUILD_DESC="jasmine-user 9 PKQ1.180904.001 V10.0.9.0.PDIMIXM release-keys"
 
 # Device identifier
 PRODUCT_BRAND := xiaomi
