@@ -41,6 +41,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # A/B
 ENABLE_AB := true
 
+# APEX
+ENABLE_APEX := true
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
