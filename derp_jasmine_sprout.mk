@@ -31,7 +31,7 @@ $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Official-ify
-DERP_BUILDTYPE := Official
+DERP_BUILDTYPE := Unofficial
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
