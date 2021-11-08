@@ -28,4 +28,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     derp_jasmine_sprout-eng \
     derp_jasmine_sprout-userdebug \
-		derp_jasmine_sprout-eng
+    derp_jasmine_sprout-user
